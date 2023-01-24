@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+<!-- Anisha Karmacharya -->
+<!-- 04/15/2020 -->
+<!--Root Element-->
+	<xs:element name="Vehicle" type="VehicleType">
+	</xs:element>
+	<xs:complexType name="VehicleType">
+		<xs:sequence>
+			<xs:element type="ShopType" name="Shop"/>
+			<xs:element type="headerType" name="header"/>
+			<xs:element type="xs:string" name="Intro"/>
+			<xs:element type="CarsType" name="Cars"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ShopType">
+		<xs:sequence>
+		  <xs:element type="xs:string" name="shopLocation"/>
+		  <xs:element type="xs:string" name="shopNumber"/>
+		  <xs:element type="xs:string" name="shopWebsite"/>
+		</xs:sequence>
+		<xs:attribute type="xs:string" name="shopID" fixed="SH890-041-02"/>
+	</xs:complexType>
+	<xs:complexType name="headerType">
+		<xs:sequence>
+		  <xs:element type="xs:string" name="logo"/>
+		  <xs:element type="xs:string" name="shopName"/>
+		</xs:sequence>
+	</xs:complexType>
+    <xs:complexType name="CarsType">
+		<xs:sequence>
+		  <xs:element type="CarType" name="Car" maxOccurs="unbounded" minOccurs="0"/>
+		</xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="CarType">
+		<xs:sequence>
+		  <xs:element type="modelNameType" name="modelName"/>
+		  <xs:element type="xs:string" name="accord" minOccurs="0"/>
+		  <xs:element type="xs:string" name="audi" minOccurs="0"/>
+		  <xs:element type="xs:string" name="civic" minOccurs="0"/>
+		  <xs:element type="xs:string" name="accent" minOccurs="0"/>
+		  <xs:element type="xs:string" name="bolt" minOccurs="0"/>
+		  <xs:element type="carDescriptionType" name="carDescription"/>
+		  <xs:element type="specificationType" name="specification"/>
+		  <xs:element type="xs:string" name="accord1" minOccurs="0"/>
+		  <xs:element type="xs:string" name="audi1" minOccurs="0"/>
+		  <xs:element type="xs:string" name="civic1" minOccurs="0"/>
+		  <xs:element type="xs:string" name="accent1" minOccurs="0"/>
+		  <xs:element type="xs:string" name="bolt1" minOccurs="0"/>
+		</xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="modelNameType">
+		<xs:simpleContent>
+		  <xs:extension base="xs:string">
+			<xs:attribute type="xs:string" name="modelNumber" use="optional"/>
+		  </xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+    <xs:complexType name="carDescriptionType">
+		<xs:sequence>
+		  <xs:element type="xs:string" name="h1"/>
+		  <xs:element type="xs:string" name="p"/>
+		</xs:sequence>
+    </xs:complexType>
+	<xs:complexType name="specificationType">
+		<xs:sequence>
+		  <xs:element type="xs:string" name="specs"/>
+		  <xs:element type="xs:string" name="carBrand"/>
+		  <xs:element type="xs:string" name="carType"/>
+		  <xs:element type="xs:string" name="EPAClassification"/>
+		  <xs:element type="xs:string" name="seatCapacity"/>
+		  <xs:element type="xs:string" name="carColor"/>
+		  <xs:element type="xs:string" name="dimension"/>
+		  <xs:element type="xs:string" name="driveType"/>
+		  <xs:element type="xs:string" name="engineCapacity" minOccurs="0"/>
+		  <xs:element type="xs:string" name="engineConfiguration"/>
+		  <xs:element type="xs:string" name="fuelSystem"/>
+		  <xs:element type="xs:string" name="fuelCapacity" minOccurs="0"/>
+		  <xs:element type="xs:string" name="gasMileage" minOccurs="0"/>
+		  <xs:element type="xs:string" name="fuelType" minOccurs="0"/>
+		  <xs:element type="xs:string" name="transmission"/>
+		  <xs:element type="xs:string" name="cargoAreaDimensions"/>
+		  <xs:element type="xs:string" name="steering"/>
+		  <xs:element type="xs:string" name="frontSuspension"/>
+		  <xs:element type="xs:string" name="rearSuspension"/>
+		  <xs:element type="xs:string" name="brakeType"/>
+		  <xs:element type="xs:string" name="antiLockBraking"/>
+		  <xs:element type="xs:string" name="WheelSize"/>
+		  <xs:element type="xs:string" name="WheelMaterial"/>
+		  <xs:element type="xs:string" name="tireSize"/>
+		  <xs:element type="xs:string" name="carPrice"/>
+		  <xs:element type="ReviewType" name="Review"/>
+		  <xs:element type="xs:string" name="quantity" />
+		</xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="ReviewType">
+		<xs:simpleContent>
+		  <xs:extension base="xs:string">
+			<xs:attribute type="xs:float" name="Comfort" use="optional" default="0.0"/>
+			<xs:attribute type="xs:float" name="ExteriorStyling" use="optional" default="0.0"/>
+			<xs:attribute type="xs:float" name="InteriorDesign" use="optional" default="0.0"/>
+			<xs:attribute type="xs:float" name="Performance" use="optional" default="0.0"/>
+			<xs:attribute type="xs:float" name="Reliability" use="optional" default="0.0"/>
+			<xs:attribute type="xs:float" name="ValueForTheMoney" use="optional" default="0.0"/>
+		  </xs:extension>
+		</xs:simpleContent>
+    </xs:complexType>
+</xs:schema>

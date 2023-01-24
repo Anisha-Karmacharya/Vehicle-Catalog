@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_18030846.css"?> 
+<!-- Anisha Karmacharya -->
+<!-- 03/29/2020 -->
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ 		xsi:noNamespaceSchemaLocation="catalog_18030846.xsd">
+	<Shop shopID="SH890-041-02">	
+		<shopLocation>Address: Putalisadak</shopLocation>
+		<shopNumber>Phone Number: 014531115</shopNumber>
+		<shopWebsite>Website: www.autocompany.com.np</shopWebsite>
+	</Shop>
+	<header>
+		<logo></logo>
+		<shopName>Motor Station</shopName>
+	</header>
+	<Intro>Drive your will</Intro>
+	<Cars>		
+		<Car>
+			<modelName modelNumber="G-12345-6788"> Accord LX 1.5T CVT</modelName>
+			<accord/>
+				<carDescription>
+					<h1> Description </h1>
+					<p>
+						The Accord is the 5-seat mid-size family sedan for Honda. The front-wheel drive agreement now arrives in its 10th generation with a regular 192-horsepower, 1.5-liter turbocharged four-cylinder engine or a 252-hp, 2.0-liter turbocharged four-cylinder engine available. A six-speed manual transmission is available for both engines. 
+						The 1.5-liter engine can also operate with an automatic transmission that is continuously variable, while the 2.0-liter engine can pair with a 10-speed automatic. There is also an powerful Accord Hybrid with a two-engine hybrid powertrain that integrates a 4-cylinder 2.0-liter and is paired with an EPA-estimated 48 mpg.
+					</p>
+				</carDescription>
+				<specification>
+				<specs>Specifications</specs>
+				<carBrand>Make: Honda</carBrand>
+				<carType>Type: Sedan</carType>
+				<EPAClassification>EPA Classification: Mid-size Car</EPAClassification>
+				<seatCapacity>Seat Capacity: 5</seatCapacity>
+				<carColor>Color: Grey</carColor>
+				<dimension>Dimension (L x W x H): 4,890 x 1,850 x 1,465) mm</dimension>
+				<driveType>Drive Type: Front Wheel Drive</driveType>
+				<engineCapacity> Engine Capacity: 1,997 cc </engineCapacity>
+				<engineConfiguration>Engine Type: In-Line 4-Cylinder</engineConfiguration>
+				<fuelSystem> Fuel System: Gasoline Direct Injection</fuelSystem>
+				<fuelCapacity>Fuel Capacity: 14.8 Gal.</fuelCapacity>
+				<gasMileage>Gas Mileage: 30 mpg City / 38 mpg Hwy</gasMileage>
+				<fuelType>Fuel Type: Petrol</fuelType>
+				<transmission>Transmission: CVT Transmission</transmission>
+				<cargoAreaDimensions>Trunk Space (cubic Feet):16.7 </cargoAreaDimensions>
+				<steering> Steering Type: Rack-Pinion</steering>
+				<frontSuspension> Front Suspension Type: Strut </frontSuspension>
+				<rearSuspension> Rear Suspension Type: Multi-link </rearSuspension>
+				<brakeType>Brake Type: 4-Wheel Disc</brakeType>
+				<antiLockBraking>Anti-Lock-Braking System: 4-Wheel</antiLockBraking>			
+				<WheelSize> Wheel Size (inches): 17X7.5 </WheelSize>
+				<WheelMaterial>  Wheel Material: Alumnium </WheelMaterial>
+				<tireSize>Tire Size: P225/50VR17</tireSize>
+				<carPrice>Starting Price: $24,975</carPrice>
+				<Review Comfort="4.8" ExteriorStyling="4.9" InteriorDesign="4.8" Performance="4.8" Reliability="4.7" ValueForTheMoney="4.6" >Review: 4.6</Review>
+				<quantity>In stock: 5</quantity>
+				</specification>
+				<accord1/>
+		</Car>
+		<Car>
+			<modelName modelNumber="Au-1563-4590"> A5 Coupe Premium 2.0 TFSI quattro</modelName>
+			<audi/>
+			<carDescription>
+				<h1> Description </h1>
+				<p>
+				For 2018 the Audi A5 and its siblings have been redesigned and are derived from the A4 sedan. They 're offered in three all-wheel drive body styles. The A5 and S5 come in coupe, convertible and four-door hatchback (Sportback) body styles; the high-performance RS5 comes in coupe and Sportback body styles.
+				A5 models have a 248-horsepower, 2.0-liter turbocharged four-cylinder engine that operates with a dual-clutch seven-speed automatic transmission. The S5 comes with a 349-hp, 3.0-liter turbocharged V-6 and an automatic eight-speed. The RS5, meanwhile, gets a 444-hp, turbocharged 2.9-liter V-6 and an eight-speed automatic.
+				Competitors include the BMW 4 Series, C-Class coupe Mercedes-Benz and Infiniti Q60.
+				</p>
+			</carDescription>
+			<specification>
+			<specs>Specifications</specs>
+			<carBrand>Make: Audi</carBrand>
+			<carType>Type: Coupe</carType>
+			<EPAClassification>EPA Classification: Subcompact Cars</EPAClassification>
+			<seatCapacity>Seat Capacity: 4</seatCapacity>
+			<carColor>Color: Black</carColor>
+			<dimension>Dimension (L x W x H): 4673 x 1846 x 1371) mm</dimension>
+			<driveType>Drive Type: All Wheel Drive</driveType>
+			<engineCapacity> Engine Capacity: 1,997 cc </engineCapacity>
+			<engineConfiguration>Engine Type: In-Line 4-Cylinder</engineConfiguration>
+			<fuelSystem> Fuel System: Gasoline Direct Injection</fuelSystem>
+			<fuelCapacity>Fuel Capacity: 15.3 Gal.</fuelCapacity>
+			<gasMileage>Gas Mileage: 30 mpg City / 38 mpg Hwy</gasMileage>
+			<fuelType>Fuel Type: Diesel</fuelType>
+			<transmission>Transmission: 7-Speed Automatic</transmission>
+			<cargoAreaDimensions>Trunk Space (cubic Feet):11.6 </cargoAreaDimensions>
+			<steering> Steering Type: Rack-Pinion</steering>
+			<frontSuspension> Front Suspension Type: Multi-Link </frontSuspension>
+			<rearSuspension> Rear Suspension Type: Multi-link </rearSuspension>
+			<brakeType>Brake Type: 4-Wheel Disc</brakeType>
+			<antiLockBraking>Anti-Lock-Braking System: 4-Wheel</antiLockBraking>			
+			<WheelSize> Wheel Size (inches): 18X8.5 </WheelSize>
+			<WheelMaterial>  Wheel Material: Alumnium </WheelMaterial>
+			<tireSize>Tire Size: P245/40HR18</tireSize>
+			<carPrice>Starting Price: $49,900</carPrice>
+			<Review Comfort="5.0" ExteriorStyling="5.0" InteriorDesign="5.0" Performance="5.0" Reliability="5.0" ValueForTheMoney="5.0" >Review: 5.0</Review>
+			<quantity>In stock: 3</quantity>
+			</specification>
+			<audi1/>
+		</Car>
+		<Car>
+			<modelName modelNumber="c-16579-9568"> Civic LX Manual Sedan</modelName>
+			<civic/>
+			<carDescription>
+				<h1> Description </h1>
+				<p>
+				The Honda Civic is a compact front drive car offered in body styles such as sedan, coupe and four-door hatchback. It competes with the Hyundai Elantra, Toyota Corolla and Nissan Sentra. The sedan and coupe are equipped with a standard 158-horsepower, 2.0-liter four-cylinder engine, or a 174-hp, 1.5-liter turbocharged four-cylinder. The regular hatchback only comes with the 1.5-liter engine .
+				Honda markets Si and Type R variants of the Civic for performance-drivers. The Si model is available in sedan and coupe form, and features a 1.5-liter turbo engine version of 205-hp. The ultra-performance Model R comes only as a four-seater hatchback and is powered by a 4-cylinder 2.0-liter turbocharged, 306-hp.
+				</p>
+			</carDescription>
+			<specification>
+			<specs>Specifications</specs>
+			<carBrand>Make: Honda</carBrand>
+			<carType>Type: Sedan</carType>
+			<EPAClassification>EPA Classification: Compact Cars</EPAClassification>
+			<seatCapacity>Seat Capacity: 5</seatCapacity>
+			<carColor>Color: Red</carColor>
+			<dimension>Dimension (L x W x H): 4,656 x 1,799 x 1,433) mm</dimension>
+			<driveType>Drive Type: Front Wheel Drive</driveType>
+			<engineCapacity> Engine Capacity: 1,799 cc </engineCapacity>
+			<engineConfiguration>Engine Type: Regular Unleaded I-4</engineConfiguration>
+			<fuelSystem> Fuel System: Sequential MPI </fuelSystem>
+			<fuelCapacity>Fuel Capacity: 12.4 gal</fuelCapacity>
+			<gasMileage>Gas Mileage: 30 mpg City / 38 mpg Hwy</gasMileage>
+			<fuelType>Fuel Type: Petrol</fuelType>
+			<transmission>Transmission: 6-Speed Manual</transmission>
+			<cargoAreaDimensions>Trunk Space (cubic Feet):15.1 </cargoAreaDimensions>
+			<steering> Steering Type: Rack-Pinion</steering>
+			<frontSuspension> Front Suspension Type: Strut </frontSuspension>
+			<rearSuspension> Rear Suspension Type: Multi-link </rearSuspension>
+			<brakeType>Brake Type: 4-Wheel Disc</brakeType>
+			<antiLockBraking>Anti-Lock-Braking System: 4-Wheel</antiLockBraking>			
+			<WheelSize> Wheel Size (inches): 16X7 </WheelSize>
+			<WheelMaterial>  Wheel Material: Steel </WheelMaterial>
+			<tireSize>Tire Size: P215/55HR16</tireSize>
+			<carPrice>Starting Price: $69,850</carPrice>
+			<Review Comfort="5.0" ExteriorStyling="5.0" InteriorDesign="4.0" Performance="5.0" Reliability="3.0" ValueForTheMoney="4.0" >Review: 4.0</Review>
+			<quantity>In stock: 2</quantity>
+			</specification>
+			<civic1/>
+		</Car>
+		<Car>
+			<modelName modelNumber="AC-3145-6788"> Accent SEL Sedan IVT</modelName>
+			<accent/>
+			<carDescription>
+				<h1> Description </h1>
+				<p>
+				The 2019 Hyundai Accent is a subcompact sedan that seats up to five people. It’s powered by a 130-horsepower, 1.6-liter four-cylinder engine that pairs with a six-speed manual or six-speed automatic transmission.
+				The Accent's 1.6-liter four-cylinder engine makes 120 horsepower and drives the front wheels through either a six-speed manual or continuously variable automatic transmission (CVT). The four-cylinder is new for 2020 ad we've not tested one, but we expect performance similar to last year's model which offered 130 horsepower. It's clear that ride comfort takes priority over deft handling. 
+				</p>
+			</carDescription>
+			<specification>
+			<specs>Specifications</specs>
+			<carBrand>Make: Hyundai Motor Company</carBrand>
+			<carType>Type: Sedan</carType>
+			<EPAClassification>EPA Classification: Compact Cars</EPAClassification>
+			<seatCapacity>Seat Capacity: 5</seatCapacity>
+			<carColor>Color: Black</carColor>
+			<dimension>Dimension (L x W x H): 4,656 x 1,799 x 1,433) mm</dimension>
+			<driveType>Drive Type: Front Wheel Drive</driveType>
+			<engineCapacity> Engine Capacity: 1,799 cc </engineCapacity>
+			<engineConfiguration>Engine Type: Regular Unleaded I-4</engineConfiguration>
+			<fuelSystem> Fuel System: Port/Direct Injection </fuelSystem>
+			<fuelCapacity>Fuel Capacity: 11.9 gal</fuelCapacity>
+			<gasMileage>Gas Mileage: 30 mpg City / 38 mpg Hwy</gasMileage>
+			<fuelType>Fuel Type: Petrol</fuelType>
+			<transmission>Transmission: Intelligent Variable (IVT)</transmission>
+			<cargoAreaDimensions>Trunk Space (cubic Feet):15.1 </cargoAreaDimensions>
+			<steering> Steering Type: Rack-Pinion</steering>
+			<frontSuspension> Front Suspension Type: Strut </frontSuspension>
+			<rearSuspension> Rear Suspension Type: Torsion Beam </rearSuspension>
+			<brakeType>Brake Type: 4-Wheel Disc</brakeType>
+			<antiLockBraking>Anti-Lock-Braking System: 4-Wheel</antiLockBraking>			
+			<WheelSize> Wheel Size (inches): 15 X 5.5 </WheelSize>
+			<WheelMaterial>  Wheel Material: Aluminum </WheelMaterial>
+			<tireSize>Tire Size: P185/65TR15</tireSize>
+			<carPrice>Starting Price: $16,250</carPrice>
+			<Review Comfort="4.0" ExteriorStyling="4.1" InteriorDesign="4.3" Performance="4.0" Reliability="4.4" ValueForTheMoney="4.0" >Review: 4.0</Review>
+			<quantity>In stock: 2</quantity>
+			</specification>
+			<accent1/>
+		</Car>
+		<Car>
+			<modelName modelNumber="EV-1245-678"> Bolt EV 5dr Wgn Premier</modelName>
+			<bolt/>
+			<carDescription>
+				<h1> Description </h1>
+				<p>
+					With a future-is-now approach, Chevrolet’s all-electric Bolt EV hatchback delivers impressive range and is relatively affordable, especially after available tax credits. Bolt EV is a battery-electric car that offers optional DC fast charging in addition to 120- and 240-volt charging
+					Chevrolet managed to squeeze another 21 miles of range out of the Bolt EV for 2020; its EPA-estimated driving range is now 259 miles on a full charge. 
+					Standard features include LED headlights, a digital instrument panel, Bluetooth connectivity, a 10.2-inch touchscreen multimedia system, and Android Auto and Apple CarPlay smartphone connectivity.
+					
+				</p>
+			</carDescription>
+			<specification>
+			<specs>Specifications</specs>
+			<carBrand>Make: General Motors</carBrand>
+			<carType>Type: Wagon</carType>
+			<EPAClassification>EPA Classification: Small station wagon</EPAClassification>
+			<seatCapacity>Seat Capacity: 2-5</seatCapacity>
+			<carColor>Color: Black</carColor>
+			<dimension>Dimension (L x W x H): 4,166 x 1,595 x 1,765) mm</dimension>
+			<driveType>Drive Type: Front Wheel Drive</driveType>
+			<engineConfiguration>Engine Type: Single motor 100% electric Stability</engineConfiguration>
+			<fuelSystem> Fuel System: Electric </fuelSystem>
+			<transmission>Transmission: Electronic transmission</transmission>
+			<cargoAreaDimensions>Trunk Space (cubic Feet):16.9 </cargoAreaDimensions>
+			<steering> Steering Type: Column-Mounted Electric Pwr</steering>
+			<frontSuspension> Front Suspension Type: MacPherson Strut </frontSuspension>
+			<rearSuspension> Rear Suspension Type: Compound Crank (Torsion Beam) </rearSuspension>
+			<brakeType>Brake Type: Partially Regenerative Electro-Hydraulic</brakeType>
+			<antiLockBraking>Anti-Lock-Braking System: 4-Wheel</antiLockBraking>
+			<WheelSize> Wheel Size (inches): 17 x -TBD- </WheelSize>
+			<WheelMaterial>  Wheel Material: Aluminum </WheelMaterial>
+			<tireSize>Tire Size: P215/50R17</tireSize>
+			<carPrice>Starting Price: $36,620</carPrice>
+			<Review Comfort="5.0" ExteriorStyling="5.0" InteriorDesign="4.0" Performance="5.0" Reliability="3.0" ValueForTheMoney="4.0" >Review: 4.0</Review>
+			<quantity>In stock: 2</quantity>
+			</specification>
+			<bolt1/>
+		</Car>
+	</Cars>
+</Vehicle>
+

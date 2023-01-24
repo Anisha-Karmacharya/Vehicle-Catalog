@@ -1,0 +1,463 @@
+/*Anisha Karmacharya*/
+/*04/13/2020*/
+/*CSS property for Vehicle*/
+@font-face{
+	font-family: PermanentMarker;
+	src: url(../font/PermanentMarker-Regular.ttf);
+}
+Vehicle{
+    overflow-y:scroll;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+    min-height:100vh;
+    background-image: linear-gradient(#000000,#434343);
+}
+/*CSS property for Shop*/
+Shop{
+	display:block;  
+	height: 710px; 
+    padding:20px;  
+    background-color:#d8d9e3;
+	background-position: center;
+	position: relative;
+	background-image: url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	max-width:100%;
+	
+}
+header{
+	display:flex;
+	/* grid-template-columns: 1fr 1fr; */
+	position:fixed;
+	height:12vh;
+	top:0;
+	left:0;
+	background-color: rgba(0, 0, 0, 0.9);
+	font-family:Arial;
+	width:calc(100%);
+	z-index:1;
+}
+Intro{
+	position: relative;
+	color: white;
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	font-family: PermanentMarker; 
+	text-transform: uppercase;
+	font-size:50px;
+	line-height: 30px;
+	letter-spacing: 4px;
+	padding : 20px;
+	text-align: center;
+	margin-top: 30px;
+	background-image: linear-gradient(to right, #292929, #4c4c4c, #727171, #9b9999, #c5c3c2, #c1bfbe, #bdbcbb, #b9b8b7, #878686, #595858, #2e2d2d, #000000);
+ }
+/*CSS property for Elements of Shop*/
+shopName{
+	display: flex;
+	align-items: center;
+	font-size:28px;
+	font-family:Consolas;
+	color:white;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+logo{
+	display: flex;
+	align-items: center;
+	background-image:url(../images/carLogo.png);
+	background-repeat: no-repeat;
+	background-size:contain;
+	margin: 35px 25px 25px 25px ;
+	position: relative;
+	width: 50px;
+	height: 50px;
+}
+shopLocation{
+	float: left;
+	margin-top:620px;
+	padding: 40px;
+    display: block; 
+	font-family: Anton;
+    font-size: 14pt;
+    margin-left: 170px;
+	background-image: url(../images/address.png);
+	background-size: 25px, 35px;
+	background-repeat: no-repeat;
+	background-position: 10px;
+	color:white;
+	position: relative;
+}
+shopNumber{
+	float: left;
+	margin-top: 620px;
+	padding: 40px;
+    display: block; 
+	font-family: Anton;
+    font-size: 14pt;
+    margin-left: 120px;
+	background-image: url(../images/phone.png);
+	background-size: 25px, 35px;
+	background-repeat: no-repeat;
+	background-position: 10px;
+	color:white;
+	position: relative;
+}
+shopWebsite{
+	float: left;
+	margin-top: 620px;
+	padding: 40px;
+    display: block; 
+	font-family: Anton;
+    font-size: 14pt;
+    margin-left: 120px;
+	background-image: url(../images/website.png);
+	background-size: 25px, 35px;
+	background-repeat: no-repeat;
+	background-position: 10px;
+	color:white;
+}
+/*CSS property for Cars*/
+Cars{ 
+	margin-top: 10px;
+	margin-left:20px;
+	border-color: white;
+	position: relative;	
+}
+/*CSS property for Car(child element of Cars)*/
+Car{
+	/* float: left; */
+	margin-top: 30px;
+    /* background-color:rgb(0, 0, 0);
+	color: rgb(0, 0, 0); */
+	padding: 30px;
+	padding-top: 30px;
+	/* box-shadow: 0 4.8px 2.2px rgba(255, 255, 255, 0.064),
+  0 6.7px 5.3px rgba(255, 255, 255, 0.18),
+  0 12.5px 10px rgba(255, 255, 255, 0.9),
+  0 22.3px 17.9px rgba(255, 255, 255, 0.012),
+  0 41.8px 33.4px rgba(255, 255, 255, 0.16),
+  0 100px 80px rgba(255, 255, 255, 0.22);
+	background-image: linear-gradient(to bottom, #a1a1a1, #767676, #4e4e4e, #292929, #000000); */
+	max-width:100%;
+	position: relative;
+	}
+
+/*CSS property for elements of Car*/
+modelName{
+	display: flex;
+	justify-content: center;
+	width: 100%; 
+	font-family: Anton;
+	letter-spacing: 3px;	
+    font-size: 20pt;
+	margin-top: 20px;
+	padding: 10px;	
+	float:center-right;
+	text-align:center;;
+	border-bottom: 3px solid #292929;
+	color: white;
+	
+}
+carDescription{
+	float: left;
+    font-size: 12pt;
+	text-align:justify;
+	display:block;  
+	color:black;
+	width: 550px;
+	/* margin-left:150px; */
+	margin-bottom:50px;  
+	max-width:100%;
+	position: relative;
+}
+h1{
+	color:white;
+	position:sticky;
+	font-size:22px;
+	font-family:Anton;
+	color: rgb(255, 255, 255);
+	border: 2px solid rgba(255,255,255, 0.5);
+	padding: 10px;
+	text-align: center;
+	width: 500px;
+    display: block;  
+	text-align:center;
+	letter-spacing: 3px;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+p{
+	margin-top: 10px;
+	margin-left: 25px;
+	padding: 25px;
+	display:block;
+	font-family: Archivo;
+	font-size: 16px;
+	color: rgb(255,255,255);
+	text-align: justify;
+	position: relative;
+}
+specs{
+	float:right;
+	position:relative;
+	font-size:22px;
+	font-family:Anton;
+	color: rgb(255, 255, 255);
+	border: 3px solid rgba(255,255,255, 0.5);
+	padding: 10px;
+	width: 310px;
+	max-width:100%;
+	padding: 10px;
+    display: block;  
+	text-align:center;
+	letter-spacing: 3px;
+	margin-right: 70px;
+	margin-top: 23px;
+}
+specification{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 50px;
+	align-items: center;
+	float:right;
+	transform: translateY(-102.5%);
+	height: 800px;
+	width: 650px; 
+	font-family:Anton;
+    font-size: 24px;
+	color: #000000;
+	margin-right: -170px;
+	padding-bottom: 30px;
+	clip-path: polygon(29% 0, 100% 0, 100% 98%, 0% 98%);
+	max-width:100%;
+	position: relative;
+}
+carBrand{
+	float:right;
+	margin-right: -125px;
+	display: list-item; 
+	list-style-type: disc;
+	width: 500px; 
+	font-family:Anton;
+    font-size: 12pt;
+    margin-left: 70px;
+	color: #ffffff;
+	position: relative;
+}
+carType, EPAClassification, seatCapacity, carColor, dimension, driveType{
+	float:right;
+	margin-right: -125px;
+	display: list-item; 
+	list-style-type: disc;
+	width: 500px; 
+	font-family:Anton; 
+    font-size: 12pt;
+	color: #ffffff;
+	position: relative;
+}
+engineCapacity, engineConfiguration, fuelSystem, fuelCapacity, gasMileage, fuelEconomy, fuelType{
+	float:right;
+	margin-right: -125px;
+	display: list-item; 
+	list-style-type: disc;
+	width: 500px; 
+	font-family:Anton;
+    font-size: 12pt;
+	color: #ffffff;
+	position: relative;
+}
+transmission, cargoAreaDimensions, steering, quantity{
+	float:right;
+	margin-right: -125px;
+	display: list-item; 
+	list-style-type: disc;
+	width: 500px; 
+	font-family:Anton;
+    font-size: 12pt;
+	color: #ffffff;
+	position: relative;
+}
+frontSuspension,rearSuspension, brakeType, antiLockBraking{
+	float:right;
+	margin-right: -125px;
+	display: list-item; 
+	list-style-type: disc;
+	width: 500px; 
+	font-family:Anton; 
+    font-size: 12pt;
+	color: #ffffff;
+	position: relative;
+} 
+WheelSize, WheelMaterial, tireSize, carPrice, engineCylinder, Review{
+	float:right;
+	margin-right: -125px;
+	display: list-item; 
+	list-style-type: disc;
+	width: 500px; 
+	font-family:Anton;
+    font-size: 12pt;
+	color: #ffffff;
+	position: relative;
+}
+
+accord{
+	display:block;  
+	margin-top: 50px;
+	margin-left:-20px;
+	background-image: url(../images/accord.gif);
+	background-color:#8e8e80;
+	background-repeat: no-repeat;
+	width: 1500px;
+	height: 850px;
+	background-size: 1500px 950px;
+	background-position: left;
+    clip-path: polygon(0 0, 100% 0, 81% 95%, 0% 95%);
+	max-width:100%;
+	position: relative;
+}
+accord1{
+	display: flex;
+	transform: translate(110%, -73%);  
+	margin-right: -20px;
+	background-image: url(../images/accord1.jpg);
+	background-color:#8e8e80;
+	background-repeat: no-repeat;
+	width: 900px;
+	height: 550px;
+	background-size: 900px 550px;
+	background-position: center;
+	clip-path: polygon(23% 0, 100% 0, 100% 100%, 0 100%, 10% 100%);	
+	max-width:100%;
+	position: relative;
+}
+audi{
+	display:block;  
+	margin-top: 50px;
+	margin-left:-20px; 
+	background-image: url(../images/Audi.gif);
+	background-color:#8e8e80;
+	background-repeat: no-repeat;
+	width: 1500px;
+	height: 850px;
+	background-size: 1500px 950px;
+	background-position: center;
+    clip-path: polygon(0 0, 100% 0, 81% 95%, 0% 95%);
+	max-width:100%;
+	position: relative;
+}
+audi1{
+	float:right;
+	display:block;  
+	transform: translate(55%, -77%); 
+	margin-top: 5px;
+	margin-right: -20px;
+	background-image: url(../images/audi.jpg);
+	background-color:#8e8e80;
+	background-repeat: no-repeat;
+	width: 900px;
+	height: 550px;
+	background-size: 900px 550px;
+	background-position: center;
+	clip-path: polygon(23% 0, 100% 0, 100% 100%, 0 100%, 10% 100%);	
+	max-width:100%;
+	position: relative;
+}
+civic{
+	display:block;  
+	margin-top: 50px;
+	margin-left:-20px; 
+	background-image: url(../images/civic.gif);
+	background-color:#8e8e80;
+	background-repeat: no-repeat;
+	width: 1500px;
+	height: 850px;
+	background-size: 1500px 950px;
+	background-position: center;	
+	clip-path: polygon(0 0, 100% 0, 81% 95%, 0% 95%);
+	max-width:100%;
+	position: relative;
+}
+civic1{
+	float:right;
+	display:block;  
+	margin-top: 10px;
+	transform: translate(55%, -75%); 
+	margin-right: -20px;
+	background-image: url(../images/Civic1.jpg);
+	background-color:#8e8e80;
+	background-repeat: no-repeat;
+	width: 900px;
+	height: 550px;
+	background-size: 900px 550px;
+	background-position: center;
+	clip-path: polygon(23% 0, 100% 0, 100% 100%, 0 100%, 10% 100%);		
+	max-width:100%;
+	position: relative;
+}
+accent{
+	display:block;  
+	margin-top: 50px;
+	margin-left:-20px;  
+	background-image: url(../images/accent.gif);
+	background-color:#8e8e80;
+	background-repeat: no-repeat;
+	width: 1500px;
+	height: 850px;
+	background-size: 1500px 950px;
+	background-position: center;
+    clip-path: polygon(0 0, 100% 0, 81% 95%, 0% 95%);
+	max-width:100%;
+	position: relative;
+}
+accent1{
+	float:right;
+	display:block;  
+	margin-top: 10px;
+	transform: translate(55%, -71.5%); 
+	margin-right: -20px;
+	background-image: url(../images/Accent1.jpg);
+	background-color:#8e8e80;
+	background-repeat: no-repeat;
+	width: 900px;
+	height: 550px;
+	background-size: 900px 550px;
+	background-position: center;
+	clip-path: polygon(23% 0, 100% 0, 100% 100%, 0 100%, 10% 100%);	
+	max-width:100%;
+	position: relative;
+}
+bolt{
+	display:block;  
+	margin-top: 50px;
+	margin-left:-20px;  
+	background-image: url(../images/bolt.gif);
+	background-color:#8e8e80;
+	background-repeat: no-repeat;
+	width: 1500px;
+	height: 850px;
+	background-size: 1500px 950px;
+	background-position: center;
+	clip-path: polygon(0 0, 100% 0, 81% 83%, 0% 83%);
+	max-width:100%;	
+	position: relative;
+}
+bolt1{
+	float:right;
+	display:block;  
+	margin-top: -90px;
+	margin-right: -20px;
+	background-image: url(../images/bolt.jpg);
+	background-color:#8e8e80;
+	background-repeat: no-repeat;
+	width: 900px;
+	height: 550px;
+	background-size: 900px 550px;
+	background-position: center;
+	clip-path: polygon(23% 0, 100% 0, 100% 100%, 0 100%, 10% 100%);	
+	max-width:100%;
+	position: relative;
+	transform: translate(55%, -72%); 
+}
